@@ -11,17 +11,20 @@
 
 */
 @charset "utf-8";
-@font-face{Champagne;
+@font-face{
+   font-family:Champagne;
    src:url(cac_champagne.ttf) format('ttf'),
    url(cac_champagne.woff) format('woff'),
    url(cac_champagne.woff2) format('woff2');
 }
-@font-face{Grunge;
+@font-face{
+   font-family:Grunge;
    src:url(1942.ttf) format('ttf'),
    url(1942.woff) format('woff'),
    url(1942.woff2) format('woff2');
 }
-@font-face{DobkinPlain;
+@font-face{
+   font-family:DobkinPlain;
    src:url(DobkinPlain.ttf) format('ttf'),
    url(DobkinPlain.woff) format('woff'),
    url(DobkinPlain.woff2) format('woff2')
@@ -37,7 +40,7 @@ body{
    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif
 }
 header{
-   background-color: black
+   background-color: black;
 }
 p{
    margin: 0px;
@@ -48,31 +51,31 @@ p{
 }
 body>p{
    font-size: 1.1em;
-   text-align: center
+   text-align: center;
 }
 address{
    font-style: normal;
    text-align: center;
    font-size: 0.9em;
    padding-top: 10px;
-   padding-bottom: 10px
+   padding-bottom: 10px;
 }
 
 /* Navigation Styles */
 
-nav{
+nav a{
    font-family: 'Trebuchet MS', Helvetica, sans-serif;
    padding-bottom: 10px;
    padding-top: 10px;
 }
 nav a:link, nav a:visited{
    color: white;
-   background-color: hsla(0, 0%, 42% 0.4);
-   text-decoration: none
+   background-color: hsla(0, 0%, 42%, 0.4);
+   text-decoration: none;
 }
 nav a:hover, nav a:active{
-   color: hsl(0, 0%,0.7);
-   background-color: hsl(0,0%,42%,0.7)
+   color: hsla(0,0%,100%,0.7);
+   background-color: hsla(0,0%,42%,0.7);
 }
 /* Section Styles */
 
@@ -87,21 +90,28 @@ section.playbill h1{
 }
 #play1{
   background-color:  hsl(240, 100%, 88%);
-  font-family: Champagne, cursive;
 }
 #play2{
    background-color: hsl(25,88%,73%) ;
-   font-family: Grunge,'Times New Roman',Times,serif;
 }
 #play3{
    background-color: hsl(0,100%,75%);
-   font-family: Impact,Charcoal,sans-serif;
 }
 #play4{
    background-color: hsl(296,86%,86%);
-   font-family: DobkinPlain,cursive;
 }
-
+#play1 h1{
+   font-family: Champagne, cursive;
+ }
+ #play2 h1{
+    font-family: Grunge,'Times New Roman',Times,serif;
+ }
+ #play3 h1{
+    font-family: Impact,Charcoal,sans-serif;
+ }
+ #play4 h1{
+    font-family: DobkinPlain,cursive;
+ }
 /* Description List Styles */
 
 dt{
