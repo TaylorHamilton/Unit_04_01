@@ -27,7 +27,7 @@
    font-family:DobkinPlain;
    src:url(DobkinPlain.ttf) format('ttf'),
    url(DobkinPlain.woff) format('woff'),
-   url(DobkinPlain.woff2) format('woff2')
+   url(DobkinPlain.woff2) format('woff2');
 }
 
 /* Structural Styles */
@@ -37,7 +37,7 @@ html{
 }
 body{
    background-color: hsl(51, 31%, 84%);
-   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 header{
    background-color: black;
